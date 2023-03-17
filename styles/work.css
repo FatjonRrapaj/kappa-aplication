@@ -138,12 +138,12 @@
   }
   .videoContainer {
     height: 25vh;
-    margin: 2rem auto;
+    margin: 3rem auto;
   }
 
   .videoContainer:nth-child(odd) {
     height: 25vh;
-    margin: 2rem auto;
+    margin: 3rem auto;
   }
 
   .videoText {
@@ -166,10 +166,14 @@
 
 @media screen and (max-width: 432px) {
   .videoContainer {
-    height: 20vh;
+    height: 24vh;
   }
 
   .videoContainer:nth-child(odd) {
-    height: 20vh;
+    height: 24vh;
+  }
+
+  .videoText {
+    bottom: -2rem;
   }
 }

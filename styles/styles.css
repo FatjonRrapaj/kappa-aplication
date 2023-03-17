@@ -51,7 +51,7 @@ header {
   position: sticky;
   background-color: var(--application-background);
   top: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .mainHeader {
@@ -164,6 +164,18 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.githubLink {
+  display: flex;
+  text-align: center;
+  width: fit-content;
+  margin: 0.4rem auto;
+  color: var(--application-background-light);
+}
+
+.githubLink > img {
+  margin-right: 0.5rem;
 }
 
 @media (max-width: 992px) {
